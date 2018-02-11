@@ -73,34 +73,34 @@ Test dependencies:
 ```
 root/src/com/lendico/finance
 |
-|--- FinanceApplication.java			* Spring Application root
+|-- FinanceApplication.java			* Spring Application root
 |
 |-- JerseyConfig.java			        * Resources configuration
 │  
-|-- planner/							* Loan planner use case
-|        ├── algorithm     	            * All algorithms
-|        ├── client     	            * Client request/response
-|        ├── model     	                * Business models
+|-- planner/					* Loan planner use case
+|        ├── algorithm     	                * All algorithms
+|        ├── client     	                * Client request/response
+|        ├── model     	                        * Business models
 |        ├── operation     	        	* Business operations
-|        └── resource                   * Resource endpoint
+|        └── resource                           * Resource endpoint
 |        
 |
-|-- common/					   			* Contains common classes
-|		 |
-|		 ├── exception/                 * Exception package    
-|        |    └── ApiException.java
-|        |
-|        ├── protocol/                  * Common interfaces
-|        |    ├── BusinessToClient.java
-|	     |    └── ClientToBusiness.java
-|        |
-|        └── util/                      * Utils package
+|-- common/					* Contains common classes
+|	|
+|	├── exception/                          * Exception package    
+|       |    └── ApiException.java
+|       |
+|       ├── protocol/                           * Common interfaces
+|       |    ├── BusinessToClient.java
+|	|    └── ClientToBusiness.java
+|       |
+|       └── util/                               * Utils package
 |             ├── Constants.java		    
 |             └── Utils.java
 |
 |
 |
-|-- test/								* All test cases
+|-- test/					* All test cases
 |        ├── ...     	
 |        └── ...   
 |
