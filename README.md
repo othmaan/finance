@@ -6,7 +6,7 @@
 
 ### Run executable
 1. Project is an a IntelliJ IDEA project.
-2. Go to `personal-finance/target`.
+2. Go to `personal-finance/target`. [(Download from releases)](https://github.com/othmaan/finance/releases/download/1.0/personal-finance-0.0.1-SNAPSHOT.jar)
 3. `java -jar personal-finance-0.0.1-SNAPSHOT.jar`
 
 
