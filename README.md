@@ -74,7 +74,7 @@ Test dependencies:
 ```
 root/src/com/lendico/finance
 |
-|--- FinanceApplication.java			* Spring Application root
+|-- FinanceApplication.java			* Spring Application root
 |
 |-- JerseyConfig.java			        * Resources configuration
 │  
@@ -87,15 +87,15 @@ root/src/com/lendico/finance
 |        
 |
 |-- common/					* Contains common classes
-|		 |
-|		 ├── exception/                 * Exception package    
-|        |    └── ApiException.java
-|        |
-|        ├── protocol/                          * Common interfaces
-|        |    ├── BusinessToClient.java
-|	     |    └── ClientToBusiness.java
-|        |
-|        └── util/                              * Utils package
+|	|
+|	├── exception/                          * Exception package    
+|       |    └── ApiException.java
+|       |
+|       ├── protocol/                           * Common interfaces
+|       |    ├── BusinessToClient.java
+|	|    └── ClientToBusiness.java
+|       |
+|       └── util/                               * Utils package
 |             ├── Constants.java		    
 |             └── Utils.java
 |
