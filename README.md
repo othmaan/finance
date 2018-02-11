@@ -1,9 +1,8 @@
 # Loan 💰 Planner 
 
 
-<!--### Test cases result
-[Preview](static/Test_Results.html)
--->
+### Test cases result
+[Preview](tests.html)
 
 ### Run executable
 1. Project is an a IntelliJ IDEA project.

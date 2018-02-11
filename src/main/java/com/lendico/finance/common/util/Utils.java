@@ -1,6 +1,7 @@
 package com.lendico.finance.common.util;
 
 import com.lendico.finance.common.exception.ApiException;
+import org.springframework.util.NumberUtils;
 import org.springframework.util.StringUtils;
 
 import java.text.DecimalFormat;
@@ -46,7 +47,9 @@ public class Utils {
     }
 
     private static void checkIfNull(Object obj) {
-        Boolean isNull = StringUtils.isEmpty(obj) || (obj.getClass() == Double.class && (double) obj == Double.POSITIVE_INFINITY);
+        Boolean isNull = obj != null &&  obj.getClass() == Double.class ?
+                (Double.isInfinite((double)obj) || Double.isNaN((double)obj)):
+                StringUtils.isEmpty(obj);
 
         if (isNull) {
             throw new ApiException(ERROR_CODES.INVALID_PARAM, "Illegal parameter exception.");
