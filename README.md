@@ -2,7 +2,7 @@
 
 
 ### Test cases result
-[Preview](https://htmlpreview.github.io/?https://github.com/othmaan/finance/blob/master/tests.html)
+[Preview](https://htmlpreview.github.io/?https://github.com/othmaan/static/blob/master/finance-tests.html)
 
 ### Run executable
 1. Project is an a IntelliJ IDEA project.
